@@ -12,8 +12,8 @@ import android.widget.Filterable;
 import android.widget.TextView;
 
 import com.parashot_trader.codesroots.smartpanetask.R;
-import com.parashot_trader.codesroots.smartpanetask.presentation.features.entities.Countries;
-import com.parashot_trader.codesroots.smartpanetask.presentation.features.entities.contact;
+import com.parashot_trader.codesroots.smartpanetask.entities.Countries;
+import com.parashot_trader.codesroots.smartpanetask.entities.contact;
 
 import java.util.ArrayList;
 import java.util.List;

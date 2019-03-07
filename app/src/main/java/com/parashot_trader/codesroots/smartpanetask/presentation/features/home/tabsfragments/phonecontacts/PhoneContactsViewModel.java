@@ -7,7 +7,7 @@ import android.content.ContentResolver;
 import android.database.Cursor;
 import android.provider.ContactsContract;
 import android.util.Log;
-import com.parashot_trader.codesroots.smartpanetask.presentation.features.entities.contact;
+import com.parashot_trader.codesroots.smartpanetask.entities.contact;
 import java.util.ArrayList;
 import java.util.List;
 

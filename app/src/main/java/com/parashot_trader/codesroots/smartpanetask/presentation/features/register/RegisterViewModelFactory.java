@@ -5,10 +5,9 @@ import android.arch.lifecycle.ViewModel;
 import android.arch.lifecycle.ViewModelProvider;
 import android.support.annotation.NonNull;
 
-import com.parashot_trader.codesroots.smartpanetask.presentation.features.domain.ApiClient;
-import com.parashot_trader.codesroots.smartpanetask.presentation.features.domain.ServerGateway;
-import com.parashot_trader.codesroots.smartpanetask.presentation.features.domain.repositries.RegisterRepository;
-import com.parashot_trader.codesroots.smartpanetask.presentation.features.login.LoginViewModel;
+import com.parashot_trader.codesroots.smartpanetask.domain.ApiClient;
+import com.parashot_trader.codesroots.smartpanetask.domain.ServerGateway;
+import com.parashot_trader.codesroots.smartpanetask.domain.repositries.RegisterRepository;
 
 public class RegisterViewModelFactory implements ViewModelProvider.Factory {
 

@@ -2,19 +2,16 @@ package com.parashot_trader.codesroots.smartpanetask.presentation.features.home.
 
 import android.annotation.SuppressLint;
 import android.content.Context;
-import android.content.Intent;
-import android.os.Parcelable;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
-import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Filter;
 import android.widget.Filterable;
 import android.widget.TextView;
 import com.parashot_trader.codesroots.smartpanetask.R;
-import com.parashot_trader.codesroots.smartpanetask.presentation.features.entities.Countries;
+import com.parashot_trader.codesroots.smartpanetask.entities.Countries;
 
 import java.util.ArrayList;
 import java.util.List;

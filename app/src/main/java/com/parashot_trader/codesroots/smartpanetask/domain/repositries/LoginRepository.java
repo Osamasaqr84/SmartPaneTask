@@ -1,14 +1,11 @@
-package com.parashot_trader.codesroots.smartpanetask.presentation.features.domain.repositries;
+package com.parashot_trader.codesroots.smartpanetask.domain.repositries;
 
-import android.support.annotation.NonNull;
 import android.support.v4.util.Consumer;
 
-import com.parashot_trader.codesroots.smartpanetask.presentation.features.domain.ServerGateway;
-import com.parashot_trader.codesroots.smartpanetask.presentation.features.entities.LoginResponse;
-import com.parashot_trader.codesroots.smartpanetask.presentation.features.entities.User;
+import com.parashot_trader.codesroots.smartpanetask.domain.ServerGateway;
+import com.parashot_trader.codesroots.smartpanetask.entities.LoginResponse;
+import com.parashot_trader.codesroots.smartpanetask.entities.User;
 
-import okhttp3.MultipartBody;
-import okhttp3.RequestBody;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;

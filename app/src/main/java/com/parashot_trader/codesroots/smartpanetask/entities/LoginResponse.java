@@ -1,4 +1,4 @@
-package com.parashot_trader.codesroots.smartpanetask.presentation.features.entities;
+package com.parashot_trader.codesroots.smartpanetask.entities;
 
 public class LoginResponse {
 

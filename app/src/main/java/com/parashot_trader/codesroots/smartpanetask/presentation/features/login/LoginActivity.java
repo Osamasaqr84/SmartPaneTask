@@ -11,11 +11,9 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 import com.parashot_trader.codesroots.smartpanetask.R;
-import com.parashot_trader.codesroots.smartpanetask.presentation.features.entities.User;
+import com.parashot_trader.codesroots.smartpanetask.entities.User;
 import com.parashot_trader.codesroots.smartpanetask.presentation.features.home.MainActivity;
 import com.parashot_trader.codesroots.smartpanetask.presentation.features.register.RegisterActivity;
-
-import java.util.Arrays;
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
 

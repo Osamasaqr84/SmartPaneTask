@@ -1,19 +1,17 @@
-package com.parashot_trader.codesroots.smartpanetask.presentation.features.domain;
+package com.parashot_trader.codesroots.smartpanetask.domain;
 
-import com.parashot_trader.codesroots.smartpanetask.presentation.features.entities.Countries;
-import com.parashot_trader.codesroots.smartpanetask.presentation.features.entities.LoginResponse;
-import com.parashot_trader.codesroots.smartpanetask.presentation.features.entities.RegisterResponse;
+import com.parashot_trader.codesroots.smartpanetask.entities.Countries;
+import com.parashot_trader.codesroots.smartpanetask.entities.LoginResponse;
+import com.parashot_trader.codesroots.smartpanetask.entities.RegisterResponse;
 
 import java.util.List;
 
 import io.reactivex.Observable;
-import io.reactivex.Single;
 import retrofit2.Call;
 import retrofit2.http.Field;
 import retrofit2.http.FormUrlEncoded;
 import retrofit2.http.GET;
 import retrofit2.http.POST;
-import retrofit2.http.Query;
 
 public interface ServerGateway {
 

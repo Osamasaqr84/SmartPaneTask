@@ -2,9 +2,9 @@ package com.parashot_trader.codesroots.smartpanetask.presentation.features.login
 
 import android.arch.lifecycle.MutableLiveData;
 import android.arch.lifecycle.ViewModel;
-import com.parashot_trader.codesroots.smartpanetask.presentation.features.domain.repositries.LoginRepository;
-import com.parashot_trader.codesroots.smartpanetask.presentation.features.entities.LoginResponse;
-import com.parashot_trader.codesroots.smartpanetask.presentation.features.entities.User;
+import com.parashot_trader.codesroots.smartpanetask.domain.repositries.LoginRepository;
+import com.parashot_trader.codesroots.smartpanetask.entities.LoginResponse;
+import com.parashot_trader.codesroots.smartpanetask.entities.User;
 
 
 public class LoginViewModel extends ViewModel {

@@ -1,6 +1,4 @@
-package com.parashot_trader.codesroots.smartpanetask.presentation.features.entities;
-
-import java.util.List;
+package com.parashot_trader.codesroots.smartpanetask.entities;
 
 public class Countries {
 

@@ -1,4 +1,4 @@
-package com.parashot_trader.codesroots.smartpanetask.presentation.features.domain;
+package com.parashot_trader.codesroots.smartpanetask.domain;
 
 import android.support.annotation.NonNull;
 

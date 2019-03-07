@@ -1,18 +1,13 @@
 package com.parashot_trader.codesroots.smartpanetask.presentation.features.register;
 
-import android.app.DatePickerDialog;
 import android.arch.lifecycle.ViewModelProvider;
 import android.arch.lifecycle.ViewModelProviders;
 import android.content.Intent;
 import android.content.pm.PackageInfo;
-import android.content.pm.PackageManager;
-import android.content.pm.Signature;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Base64;
 import android.util.Log;
-import android.view.KeyEvent;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -25,17 +20,13 @@ import com.facebook.GraphRequest;
 import com.facebook.login.LoginResult;
 import com.facebook.login.widget.LoginButton;
 import com.parashot_trader.codesroots.smartpanetask.R;
-import com.parashot_trader.codesroots.smartpanetask.presentation.features.entities.User;
+import com.parashot_trader.codesroots.smartpanetask.entities.User;
 import com.parashot_trader.codesroots.smartpanetask.presentation.features.home.MainActivity;
 
 import org.json.JSONException;
 
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
 import java.util.Arrays;
-import java.util.Calendar;
-import com.facebook.FacebookSdk;
-import com.facebook.appevents.AppEventsLogger;
+
 public class RegisterActivity extends AppCompatActivity implements View.OnClickListener {
 
 

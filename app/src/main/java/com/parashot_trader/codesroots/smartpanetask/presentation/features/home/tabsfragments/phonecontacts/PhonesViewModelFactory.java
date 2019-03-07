@@ -1,14 +1,12 @@
 package com.parashot_trader.codesroots.smartpanetask.presentation.features.home.tabsfragments.phonecontacts;
 
 import android.app.Activity;
-import android.app.Application;
 import android.arch.lifecycle.ViewModel;
 import android.arch.lifecycle.ViewModelProvider;
 import android.support.annotation.NonNull;
 
-import com.parashot_trader.codesroots.smartpanetask.presentation.features.domain.ApiClient;
-import com.parashot_trader.codesroots.smartpanetask.presentation.features.domain.ServerGateway;
-import com.parashot_trader.codesroots.smartpanetask.presentation.features.home.tabsfragments.countries.CountriesViewModel;
+import com.parashot_trader.codesroots.smartpanetask.domain.ApiClient;
+import com.parashot_trader.codesroots.smartpanetask.domain.ServerGateway;
 
 public class PhonesViewModelFactory implements ViewModelProvider.Factory {
 

@@ -1,16 +1,11 @@
 package com.parashot_trader.codesroots.smartpanetask.presentation.features.home.tabsfragments.phonecontacts;
 
-import android.arch.lifecycle.Observer;
 import android.arch.lifecycle.ViewModelProviders;
-import android.content.ContentResolver;
-import android.database.Cursor;
 import android.os.Bundle;
-import android.provider.ContactsContract;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -19,16 +14,8 @@ import android.widget.FrameLayout;
 import android.widget.SearchView;
 
 import com.parashot_trader.codesroots.smartpanetask.R;
-import com.parashot_trader.codesroots.smartpanetask.presentation.features.entities.contact;
-import com.parashot_trader.codesroots.smartpanetask.presentation.features.home.tabsfragments.countries.CountriesViewModelFactory;
-import com.parashot_trader.codesroots.smartpanetask.presentation.features.home.tabsfragments.countries.adapter.CountriesAdapter;
+import com.parashot_trader.codesroots.smartpanetask.entities.contact;
 import com.parashot_trader.codesroots.smartpanetask.presentation.features.home.tabsfragments.phonecontacts.adapter.ContactsAdapter;
-
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-
-import static android.support.constraint.Constraints.TAG;
 
 public class PhoneContactsFragment extends Fragment {
 
