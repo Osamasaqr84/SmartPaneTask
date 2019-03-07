@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/dark"
+    android:foregroundGravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guid"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_percent="0.45"
+        />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.9" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:background="@drawable/linear_background_register"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:hint="@string/username"
+        android:gravity="center"
+        android:textSize="20sp"
+        app:layout_constraintHeight_percent="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/guid"
+        app:layout_constraintWidth_percent="0.85" />
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/linear_background_register"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:hint="@string/password"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        app:layout_constraintHeight_percent="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/username"
+        app:layout_constraintWidth_percent="0.85" />
+
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/linear_background_register_action"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/login"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintHeight_percent="0.10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password"
+        app:layout_constraintWidth_percent="0.7"/>
+
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintWidth_percent="0.7"
+        android:layout_marginTop="10sp"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintTop_toBottomOf="@+id/login"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:text="Not a meember? "
+            />
+
+        <TextView
+            android:id="@+id/register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="end"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:text="Sign Up now"
+            />
+
+    </LinearLayout>
+
+
+
+
+</android.support.constraint.ConstraintLayout>

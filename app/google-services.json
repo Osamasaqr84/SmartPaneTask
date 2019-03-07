@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "201906117826",
+    "firebase_url": "https://smartpane.firebaseio.com",
+    "project_id": "smartpane",
+    "storage_bucket": "smartpane.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201906117826:android:f6f6cc9da14326b5",
+        "android_client_info": {
+          "package_name": "com.parashot_trader.codesroots.smartpanetask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "201906117826-g9q43gkrp8edupbubp76md72vjm045oq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.parashot_trader.codesroots.smartpanetask",
+            "certificate_hash": "a6dfdce315883473923644d65eb33b5c5d2d5df4"
+          }
+        },
+        {
+          "client_id": "201906117826-rb2mdssp0lrb8u17qmkeve1f8e1v69p0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYzQDs3m1rpx03_e299xGlLUI6-XivBF0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "201906117826-rb2mdssp0lrb8u17qmkeve1f8e1v69p0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

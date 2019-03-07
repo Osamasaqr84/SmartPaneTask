@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">SmartPaneTask</string>
+    <string name="maps">map</string>
+    <string name="countries">countries</string>
+    <string name="contacts">contacts</string>
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in </string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="male"><font size="16">male</font></string>
+    <string name="female"><font size="16">femal</font></string>
+    <string name="register">register</string>
+    <string name="username"><font size="16">username </font></string>
+    <string name="register_in_login">register</string>
+    <string name="forgetpassword"> forget password?</string>
+    <string name="registerfb">continue with facebook</string>
+    <string name="password"><font size="16"> password </font></string>
+    <string name="phone"><font size="16">mobile </font></string>
+    <string name="registertitle">التسجيل</string>
+    <string name="commpletefileds">commplete data  </string>
+    <string name="usernamevalidate">اسم المستخدم يجب ان يحتوي علي حروف ثم ارقام</string>
+    <string name="logintitle">تسجيل دخول</string>
+    <string name="aleadytoken">اسم المستخدم محجوز من قبل</string>
+    <string name="registersuccess">تم التسجيل بنجاح</string>
+    <string name="usererror">اسم المستخدم او كلمة المرور غير صحيحة</string>
+    <string name="login">Login</string>
+    <string name="loginsuccess">تم تسجيل الدخول بنجاح</string>
+    <string name="name">name</string>
+    <string name="facebook_app_id">834079806935543</string>
+    <string name="fb_login_protocol_scheme">fb834079806935543</string>
+    <string name="repassword">re-password</string>
+    <string name="mai">e-mail</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

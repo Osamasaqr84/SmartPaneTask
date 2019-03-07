@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/register"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHeight_percent="0.25"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_percent="0.9" />
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/linear_background_register"
+                android:gravity="center"
+                android:hint="@string/name"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/logo"
+                app:layout_constraintWidth_percent="0.9" />
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/linear_background_register"
+                android:gravity="center"
+                android:hint="@string/username"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/name"
+                app:layout_constraintWidth_percent="0.9" />
+
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/linear_background_register"
+                android:gravity="center"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/username"
+                app:layout_constraintWidth_percent="0.9" />
+
+
+            <EditText
+                android:id="@+id/repassword"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/linear_background_register"
+                android:gravity="center"
+                android:hint="@string/repassword"
+                android:inputType="textPassword"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/password"
+                app:layout_constraintWidth_percent="0.9" />
+
+
+            <EditText
+                android:id="@+id/mail"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/linear_background_register"
+                android:gravity="center"
+                android:hint="@string/mai"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/repassword"
+                app:layout_constraintWidth_percent="0.9" />
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/linear_background_register"
+                android:orientation="horizontal"
+                android:weightSum="1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/mail"
+                app:layout_constraintWidth_percent="0.9">
+
+                <TextView
+                    android:id="@+id/male"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:text="@string/male"
+                    android:textSize="18sp" />
+
+                <View
+                    android:layout_width="0.8dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/gray" />
+
+                <TextView
+                    android:id="@+id/female"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:text="@string/female"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <!--<TextView-->
+            <!--android:id="@+id/mail"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_marginTop="15dp"-->
+            <!--android:background="@drawable/linear_background_register"-->
+            <!--android:gravity="center"-->
+            <!--android:visibility="gone"-->
+            <!--android:hint="@string/mail"-->
+            <!--app:layout_constraintEnd_toEndOf="parent"-->
+            <!--app:layout_constraintStart_toStartOf="parent"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/linearLayout"-->
+            <!--app:layout_constraintWidth_percent="0.9" />-->
+
+
+            <EditText
+                android:id="@+id/phone"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/linear_background_register"
+                android:gravity="center"
+                android:hint="@string/phone"
+                android:inputType="number"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/mail"
+                app:layout_constraintWidth_percent="0.9" />
+
+
+            <TextView
+                android:id="@+id/register"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/linear_background_register_action"
+                android:gravity="center"
+                android:text="@string/register"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/phone"
+                app:layout_constraintWidth_percent="0.7" />
+
+
+            <com.facebook.login.widget.LoginButton
+                android:id="@+id/login_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:padding="10sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/register"
+                app:layout_constraintWidth_percent="0.7" />
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
+
